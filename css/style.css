@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.header {
+    background-color: #F9F6F1;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 10px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.logo__image {
+    padding-top: 57px;
+    padding-right: 10px;
+}
+
+.menu__item {
+    display: inline;
+    justify-content: space-between;
+    list-style: none;
+    margin: 15px;
+    padding-right: 40px;
+}
+
+.item__link {
+    text-decoration: none;
+    color: black;
+}
+
+.item__link:hover {
+    color: rgb(199, 184, 184);
+    text-decoration: underline;
+}
+
+.link__polygon {
+    padding-left: 3px;
+}
+
+.navigation {
+    padding-left: 161px;
+    padding-bottom: 60px;
+    padding-top: 56px;
+}
+
+.header__submit {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+}
+
+.header__info {
+    margin-left: 150px;
+}
+
+.start__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes__image {
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+
+.btn {
+    background-color: #D7B399;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    padding: 17px 29px 18px 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: #e7ab80;
+    color: #333;
+}
+
+.slider {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    width: 1263px;
+    height: 235px;
+    left: 0px;
+    background: #212121;
+}
+
+.free-shipping__text {
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35,16px;
+    text-align: center;
+    padding: 80px 0px 0px;
+}
+
+.free-shipping__text span {
+    color: #FFFF;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36,57px;
+}
+
+.free-shipping__paragraph {
+    color: #FFFF;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25,6px;
+    text-align: center;
+    margin-bottom: 23px;
+}
